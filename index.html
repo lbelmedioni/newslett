@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <link rel="stylesheet" href="style.css">
+  
+  
+</head>
+<body>
+  <div class="container1"> 
+    <div class="box1">
+        <div class="title"><h1> Stay updated!</h1></div>
+        <div class="text"><h3>Join 60,000+ product managers receiving monthly updates on:</h3></div> 
+        <div class="txt">
+            <div class="t1"><h4>Product discovery and building what matters</h4></div>
+            <div class="t2"><h4>Measuring to ensure updates are a success</h4></div>
+            <div class="t3"><h4>And much morel</h4></div>
+            <div class="i1"><img src="./assets/images/icon-list.svg" ></div>
+            <div class="i2"><img src="./assets/images/icon-list.svg" ></div>
+            <div class="i3"><img src="./assets/images/icon-list.svg" ></div>
+        </div>
+        <div class="email">
+            <div><label class="Email" for="Email">Email address</label></div><br>
+           <div class="err"> <span id="error"></span>
+           </div>
+            <input class="inp" type="text" placeholder="   email@company.com"><br>
+            <button class="btn"><h6>Subscribe to monthly newsletter</h6></button>
+        </div>
+     </div>
+     <div class="boximg"><img src="./assets/images/illustration-sign-up-desktop.svg" alt="stay"></div>
+     <div class="mobile"><img src="./assets/images/illustration-sign-up-mobile.svg" alt="stay"></div>
+<div class="container2">
+  <div class="img"><img src="./assets/images/icon-success.svg" >
+    <div class="title1"><h1>Thanks for <br> subscribing!</h1></div>
+    <div class="mssg"><h4>A confirmation email has been sent to <br> <span id="message"></span>.Please open it and click the button inside to confirm your subscription</h4>
+     </div>
+     <button class="btn1">Dimiss message</button>
+</div>
+<script src="./chal.js"></script>
+
+ 
+</body>
+</html>
